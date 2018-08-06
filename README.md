@@ -12,7 +12,7 @@ I have tested the code in ```pytorch 0.3.0.post4``` in anaconda ```python 3.6 ``
 
 here three images pair is provided in folder ```last/``` and ```last_msk/``` . Here I want to do a handbag semantic segmentation which is stated as belows.
 
-![task](images\task.png)
+![task](https://github.com/yunlongdong/FCN-pytorch-easiest/blob/master/images/task.png)
 
 Firstly because ```visdom``` is used to visualize the training process, you need open another terminal and run 
 
@@ -28,7 +28,7 @@ python FCN.py
 
 You can open your browser and goto ```localhost:8097``` to see the visulization as following the first row is the prediction.
 
-![vis](images\vis.png)
+![vis](https://github.com/yunlongdong/FCN-pytorch-easiest/blob/master/images/vis.png)
 
 ### deploy
 and for deploy and inference I also provide a script ```inference.py```. You should be careful about the model path. Bacause I did not provide the trained weights file. :-P
