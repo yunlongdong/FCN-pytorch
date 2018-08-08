@@ -33,3 +33,4 @@ You can open your browser and goto ```localhost:8097``` to see the visulization 
 ### deploy
 and for deploy and inference I also provide a script ```inference.py```. You should be careful about the model path. Bacause I did not provide the trained weights file. :-P
 
+BTW, FCN.py is copy from other repo.
